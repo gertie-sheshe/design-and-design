@@ -1,0 +1,48 @@
+body {
+  margin: 10px;
+  font-family: Verdana;
+}
+
+.container {
+  border: 5px solid #eee;
+  display: flex;
+  flex-direction: row;
+}
+
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  flex: 1;
+}
+
+.container > div:nth-child(1) {
+  background-color: #84b0f8;
+}
+
+.container > div:nth-child(2) {
+  background-color: #f2857c;
+}
+
+.container > div:nth-child(3) {
+  background-color: #fcd35d;
+}
+
+@media all and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* .home,
+.services {
+  flex: 1;
+} */
+
+/* .about {
+  flex: 2;
+} */
+
+/* .services {
+  margin-left: auto;
+} */
