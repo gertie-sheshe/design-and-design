@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.wrapper > * {
+  padding: 20px;
+}
+
+.page-main {
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+  background: #9e89b8 url('./bg.jpg') no-repeat center;
+}
+
+.page-header {
+  background-color: black;
+  color: white;
+}
+
+.page-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header ul {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  order: 1;
+  list-style-type: none;
+}
+
+.page-header ul li {
+  margin: 10px;
+}
+
+.page-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 550px) {
+  .page-header ul {
+    width: auto;
+    margin-top: 0;
+  }
+
+  .page-header .cta-contact {
+    order: 1;
+  }
+}
