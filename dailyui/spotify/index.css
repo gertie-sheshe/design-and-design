@@ -3,20 +3,33 @@ body {
   margin: 0;
   padding: 0;
   color: white;
+  font-family: "Montserrat";
+  font-size: 14px;
 }
 
-.column-one, .column-three {
-    flex: 1;
-    background-color: #121212;
+.column-one,
+.column-three {
+  flex: 1;
+  background-color: black;
 }
 
-/* .column-one {
-  
-} */
+.column-one {
+  padding-left: 20px;
+}
+
+.column-one div {
+  margin-top: 20px;
+}
+
+.column-one i {
+  font-size: 30px;
+  vertical-align: -10;
+  padding-right: 10px;
+}
 
 .column-two {
   flex: 3;
-  background-color: #212121;
+  background-color: #121212;
 }
 
 /* .column-three {
