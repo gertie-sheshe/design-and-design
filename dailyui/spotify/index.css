@@ -22,12 +22,22 @@ main {
 .column-one {
   flex: 1;
 
-  padding-left: 20px;
+  /* padding-left: 20px; */
   overflow: scroll;
 }
 
 .sidebar-content div {
   margin-top: 20px;
+  padding-left: 20px;
+  border-left: solid 4px black;
+}
+
+.sidebar-content div:hover {
+  border-left: solid 4px #1db954;
+}
+
+.sidebar-content p {
+  padding-left: 20px;
 }
 
 .column-one i {
@@ -60,27 +70,70 @@ main {
 }
 
 main {
-  height: 90%;
-}
-
-footer {
-  background-color: #282828;
-  height: 10%;
-  display: flex;
+  height: 85%;
 }
 
 .sidebar-content {
   overflow: scroll;
-  height: 85%;
+  height: 90%;
 }
 
 .sticky {
   display: flex;
-  height: 15%;
+  height: 5%;
   align-items: center;
   padding-left: 5%;
+  padding-top: 7%;
+  border-top: solid 1px #b3b3b3;
 }
 
-/* .column-three {
-  
-} */
+footer {
+  background-color: #282828;
+  height: 15%;
+  display: flex;
+}
+
+.home {
+  border-left: solid 4px #1db954 !important;
+}
+
+.song-playing {
+  flex: 1;
+  background-color: teal;
+}
+
+.listen-controls {
+  flex: 3;
+}
+
+.settings {
+  flex: 1;
+}
+
+.play-length {
+  border-radius: 25px;
+  background-color: #b3b3b3;
+  height: 5px;
+  width: 60%;
+  display: inline-block;
+  vertical-align: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.controls {
+  padding-top: 30px;
+  padding-left: 30%;
+  padding-bottom: 10px;
+}
+
+.controls i {
+  padding-left: 20px;
+}
+
+.selected {
+  color: #1db954;
+}
+.progress {
+  margin-left: 17%;
+}
