@@ -99,7 +99,38 @@ footer {
 
 .song-playing {
   flex: 1;
-  background-color: teal;
+  display: flex;
+}
+
+.author-image {
+  flex: 2;
+}
+
+.author-details {
+  flex: 3;
+  padding-top: 15px;
+}
+
+.author-details i {
+  font-size: 16px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.author {
+  margin-top: 0;
+}
+
+.detail_one {
+  display: flex;
+}
+
+.song {
+  color: white;
+}
+
+.author {
+  font-size: 10;
 }
 
 .listen-controls {
@@ -122,7 +153,7 @@ footer {
 }
 
 .controls {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 30%;
   padding-bottom: 10px;
 }
@@ -136,4 +167,12 @@ footer {
 }
 .progress {
   margin-left: 17%;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  object-fit: fill;
+  margin-top: 20px;
+  margin-left: 20px;
 }
