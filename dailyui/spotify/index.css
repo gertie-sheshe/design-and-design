@@ -241,3 +241,50 @@ img {
   margin-top: 20px;
   margin-left: 20px;
 }
+
+.nav-bar {
+  display: flex;
+  padding: 10px;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+}
+
+.upgrade {
+  flex: 1;
+}
+
+.search-bar {
+  display: grid;
+}
+
+input {
+  border-radius: 25px;
+  border: none;
+  width: 120%;
+  height: 20px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 25px;
+  color: black;
+  margin-top: 20px;
+}
+
+.search-bar i {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  z-index: 1;
+  color: black;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-top: 3px;
+}
+
+.arrow {
+  padding-right: 20px;
+}
