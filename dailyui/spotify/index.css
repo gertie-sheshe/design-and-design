@@ -116,7 +116,7 @@ main {
   align-items: center;
   padding-left: 5%;
   padding-top: 7%;
-  border-top: solid 1px #b3b3b3;
+  border-top: solid 1px #303030;
 }
 
 footer {
@@ -254,6 +254,8 @@ img {
 
 .upgrade {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .search-bar {
@@ -287,4 +289,72 @@ input {
 
 .arrow {
   padding-right: 20px;
+}
+
+.upgrade-button {
+  width: 120px;
+  margin-right: 17px;
+  background-color: #101010;
+}
+
+.profile-icon {
+  padding-right: 20px;
+  color: white;
+}
+
+.profile-icon i {
+  vertical-align: -9;
+  padding-right: 5px;
+}
+
+.browse {
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+}
+
+.main-header-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body-background {
+  height: 73.5%;
+  background-color: #181818;
+}
+
+.body-content {
+  padding-left: 20px;
+  overflow: scroll;
+}
+
+.genre-selection {
+  display: flex;
+  padding: 20 0 10 0;
+  justify-content: space-between;
+}
+
+.genres {
+  font-weight: 700;
+}
+
+.genres:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.selected-genre {
+  background-color: #1db954;
+  height: 1.5px;
+  width: 30px;
+  margin: 10 0 0 38;
+}
+
+.selected-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  border-bottom: solid 0.1px #303030;
 }
