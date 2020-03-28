@@ -26,18 +26,12 @@ main {
   );
 }
 
-.friends-playing {
-  text-align: center;
-  padding-top: 10px;
-  font-weight: 700;
-  color: white;
-  font-size: 14px;
-}
-
 .friends-text {
   font-weight: 700;
   color: white;
   font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
 }
 
 .friends-button {
@@ -125,7 +119,7 @@ footer {
   display: flex;
 }
 
-.home {
+.browse-selected {
   border-left: solid 4px #1db954 !important;
 }
 
@@ -321,11 +315,11 @@ input {
 .body-background {
   height: 73.5%;
   background-color: #181818;
+  overflow: scroll;
 }
 
 .body-content {
   padding-left: 20px;
-  overflow: scroll;
 }
 
 .genre-selection {
