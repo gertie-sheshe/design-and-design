@@ -320,6 +320,7 @@ input {
 
 .body-content {
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .genre-selection {
@@ -351,4 +352,48 @@ input {
   font-weight: 700;
   color: white;
   border-bottom: solid 0.1px #303030;
+}
+
+.genre-moods-selections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.genre-and-mood {
+  display: grid;
+  height: 180px;
+  width: 180px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.genre-and-mood img {
+  height: 180px;
+  width: 180px;
+  margin: 0;
+  object-fit: cover;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  opacity: 40%;
+}
+
+.genre-icon {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.genre-icon i {
+  color: white;
+  font-size: 40px;
+}
+
+.genre-icon p {
+  text-align: center;
+  color: white;
+  font-size: 15;
 }
