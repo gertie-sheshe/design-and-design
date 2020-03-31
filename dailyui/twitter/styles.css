@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  background-color: rgb(21, 32, 43);
+  margin: 0;
+  padding: 0;
+}
+
+.column-one {
+  flex: 2;
+  color: white;
+  border-right: solid 1px rgb(56, 68, 77);
+  box-sizing: content-box;
+  padding-left: 40px;
+}
+
+.column-two {
+  flex: 5;
+}
+
+.column-three {
+  flex: 3;
+  border-left: solid 1px rgb(56, 68, 77);
+}
+
+.twitter-logo img {
+  object-fit: cover;
+  width: 42px;
+  height: 42px;
+  padding-top: 10px;
+}
