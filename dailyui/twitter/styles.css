@@ -3,6 +3,7 @@ body {
   background-color: rgb(21, 32, 43);
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .column-one {
@@ -52,5 +53,64 @@ body {
 
 .material-icons {
   padding: 10 0 10 10px;
+}
+
+.tweet-button {
+  background-color:rgba(29, 161, 242, 1.00);
+  color: white;
+  border-radius: 25px;
+  width: 200px;
+  padding-left: 10px;
+  margin-top: 10px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tweet-button-text {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.menu-profile {
+  display: flex;
+  margin-top: 100px;
+}
+
+.menu-profile-photo {
+  /* flex: 1; */
+  width: 50px;
+}
+
+img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.menu-profile-data {
+  flex: 1;
+}
+
+.menu-profile-more {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-profile-name {
+  font-weight: bold;
+  width: 120px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.menu-profile-handle {
+  color: #8899a6;
 }
 
